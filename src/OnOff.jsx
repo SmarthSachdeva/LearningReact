@@ -1,3 +1,7 @@
+// This code defines a React component named OnOff. 
+// The component's purpose is to create a simple toggle switch-like interface 
+// with buttons that change the background color and text when toggled between "ON" and "OFF" states.
+
 import React , {useState} from "react";
 import './index.css';
 

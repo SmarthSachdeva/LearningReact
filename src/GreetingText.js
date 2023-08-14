@@ -1,5 +1,8 @@
 //  THIS IS TILL VIDEO 13
-
+// This code defines a React component named App.
+// The component's purpose is to display a personalized greeting message 
+// along with the current time based on the time of day. 
+// The displayed message changes based on whether it's morning, afternoon, or evening.
 
 import React from 'react';
 import './index.css';

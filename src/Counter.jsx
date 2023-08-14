@@ -1,3 +1,7 @@
+// This code defines a functional React component named Counter. 
+// The component's purpose is to display a counter value on the screen 
+// and provide two buttons to increment and decrement the counter.
+
 import React, { useState } from "react";
 import './index.css';
 

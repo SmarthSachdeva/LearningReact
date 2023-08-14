@@ -1,3 +1,7 @@
+// This code defines a React component named UseStateTime. 
+// The component's purpose is to continuously display and update the 
+// current time using the useState hook in React.
+
 import React , {useState} from "react";
 import './index.css';
 
