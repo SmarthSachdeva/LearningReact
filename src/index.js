@@ -1,48 +1,49 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Demo from './array&Mapping/Demo';
+import BgChangeEvent from './events/BgChangeEvent';
 import './index.css';
-import ArrayData from './array&Mapping/ArrayData'
+// import Demo from './array&Mapping/Demo';
+// import ArrayData from './array&Mapping/ArrayData'
 // import GreetingText from './GreetingText';
 // import OnOff from './OnOff';
 // import Counter from './Counter';
 // import UseStateTime from '../src/useStatess/UseStateTime';
 
-function cData(val){
-  return(
-    <Demo
-      name = {val.name} 
-      age = {val.age} 
-      degree = {val.degree}  
-      city ={val.city} 
-      quote = {val.quote} 
-    />
-  ) ;
-}
+// function cData(val){
+//   return(
+//     <Demo 
+//       name = {val.name} 
+//       age = {val.age} 
+//       degree = {val.degree}  
+//       city ={val.city} 
+//       quote = {val.quote} 
+//     />
+//   ) ;
+// }
 
 ReactDOM.render(
   // <GreetingText/> 
   // <Counter/>
   // <UseStateTime/>
   // <OnOff></OnOff>
+  // <Demo
+  //   name = {ArrayData[0].name} 
+  //   age = {ArrayData[0].age} 
+  //   degree = {ArrayData[0].degree}  
+  //   city ={ArrayData[0].city} 
+  //   quote = {ArrayData[0].quote} 
+  // />
+
+  // <Demo
+  //   name = "Khyati sood"
+  //   age = "23"
+  //   degree = "B.Tech"
+  //   city = "Pune"
+  //   quote = "hat bkl"
+  // />
+  // {ArrayData.map(cData)};
   <>  
-    <Demo
-      name = {ArrayData[0].name} 
-      age = {ArrayData[0].age} 
-      degree = {ArrayData[0].degree}  
-      city ={ArrayData[0].city} 
-      quote = {ArrayData[0].quote} 
-    />
-
-    <Demo
-      name = "Khyati sood"
-      age = "23"
-      degree = "B.Tech"
-      city = "Pune"
-      quote = "hat bkl"
-    />
-
-    {ArrayData.map(cData)};
+    <BgChangeEvent></BgChangeEvent>
     
   </> , 
   document.getElementById("root")
