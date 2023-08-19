@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BgChangeEvent from './events/BgChangeEvent';
+import FormChallenge from './formsReact/FormChallenge';
 import './index.css';
+
+// import BgChangeEvent from './events/BgChangeEvent';
+// import FormsInReact from './formsReact/FormsInReact';
 // import Demo from './array&Mapping/Demo';
 // import ArrayData from './array&Mapping/ArrayData'
 // import GreetingText from './GreetingText';
@@ -42,9 +45,10 @@ ReactDOM.render(
   //   quote = "hat bkl"
   // />
   // {ArrayData.map(cData)};
+  // <BgChangeEvent></BgChangeEvent>
+  // <FormsInReact></FormsInReact>
   <>  
-    <BgChangeEvent></BgChangeEvent>
-    
+    <FormChallenge></FormChallenge>
   </> , 
   document.getElementById("root")
 )
