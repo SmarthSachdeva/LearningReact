@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Mapping2 from './array&Mapping/Mapping2';
 import FormChallenge from './formsReact/FormChallenge';
 import './index.css';
 
@@ -47,8 +48,9 @@ ReactDOM.render(
   // {ArrayData.map(cData)};
   // <BgChangeEvent></BgChangeEvent>
   // <FormsInReact></FormsInReact>
+  // <FormChallenge></FormChallenge>
   <>  
-    <FormChallenge></FormChallenge>
+    <Mapping2></Mapping2>
   </> , 
   document.getElementById("root")
 )

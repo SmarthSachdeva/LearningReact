@@ -20,6 +20,13 @@ const ArrayData = [
         degree :"B.Tech",
         city: "Gurgaon",
         quote: "hat mkl"
+    } , 
+    {
+        name:"Saaransh Sachdeva",
+        age:"21",
+        degree:"B.Com",
+        city:"Pune",
+        quote:"Hi"
     }
 ];
 
