@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Mapping2 from './array&Mapping/Mapping2';
-import FormChallenge from './formsReact/FormChallenge';
+// import Mapping2 from './array&Mapping/Mapping2';
+// import FormChallenge from './formsReact/FormChallenge';
 import './index.css';
+import Nav from './routingg/Nav'
 
 // import BgChangeEvent from './events/BgChangeEvent';
 // import FormsInReact from './formsReact/FormsInReact';
@@ -49,8 +50,9 @@ ReactDOM.render(
   // <BgChangeEvent></BgChangeEvent>
   // <FormsInReact></FormsInReact>
   // <FormChallenge></FormChallenge>
+  // <Mapping2></Mapping2>
   <>  
-    <Mapping2></Mapping2>
+    <Nav></Nav>
   </> , 
   document.getElementById("root")
 )
