@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 // import Mapping2 from './array&Mapping/Mapping2';
 // import FormChallenge from './formsReact/FormChallenge';
 import './index.css';
-import Nav from './routingg/Nav'
+
 
 // import BgChangeEvent from './events/BgChangeEvent';
 // import FormsInReact from './formsReact/FormsInReact';
@@ -52,7 +52,7 @@ ReactDOM.render(
   // <FormChallenge></FormChallenge>
   // <Mapping2></Mapping2>
   <>  
-    <Nav></Nav>
+    
   </> , 
   document.getElementById("root")
 )
